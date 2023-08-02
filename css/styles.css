@@ -91,7 +91,7 @@ p {
 .project-description {
   padding: 120px 60px;
 }
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   h1 {
     font-size: 48px;
   }
@@ -116,11 +116,5 @@ p {
   .project-description {
     padding: 5px 20px;
     text-align: center;
-  }
-}
-
-@media (min-width: 1180px) {
-  .project-description {
-    padding: 20px 15px;
   }
 }
