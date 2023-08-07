@@ -91,6 +91,24 @@ p {
 .project-description {
   padding: 120px 60px;
 }
+
+.about-hero {
+  padding: 276px 20px;
+}
+
+.about-hero h1 {
+  font-size: 64px;
+}
+
+.about-hero h2 {
+  font-size: 18px;
+  font-family: var(--paragraphs-typo);
+}
+
+.about-hero-content {
+  margin: 60px;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 48px;
@@ -116,5 +134,13 @@ p {
   .project-description {
     padding: 5px 20px;
     text-align: center;
+  }
+
+  .about-hero {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .about-hero-content {
+    margin: 0 15px;
   }
 }
