@@ -109,9 +109,40 @@ p {
   margin: 60px;
 }
 
+.work-master h1 {
+  font-size: 64px;
+  line-height: 85px;
+}
+
+.work-master h2 {
+  font-family: var(--paragraphs-typo);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.work-master p {
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.hero-work {
+  padding: 336px 375px 120px;
+}
+
+.work-grid {
+  padding-left: 80px;
+  padding-right: 0;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 48px;
+    line-height: normal;
   }
   h2 {
     font-size: 48px;
@@ -122,6 +153,11 @@ p {
     background: var(--secondary-color);
     padding: 120px 20px;
   }
+  .about-hero h1 {
+    font-size: 40px;
+    line-height: normal;
+  }
+
   .hero h2 {
     font-size: 20px;
     font-style: normal;
@@ -142,5 +178,17 @@ p {
   }
   .about-hero-content {
     margin: 0 15px;
+  }
+  .hero-work {
+    text-align: center;
+    padding: 60px 25px;
+  }
+
+  .work-master h1 {
+    font-size: 40px;
+    line-height: normal;
+  }
+  .work-grid {
+    padding: 20px;
   }
 }
