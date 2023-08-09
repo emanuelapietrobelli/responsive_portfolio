@@ -44,6 +44,35 @@ p {
   line-height: 30px;
 }
 
+.nav {
+  padding: 20px;
+}
+.nav h1 {
+  font-size: 45px;
+}
+.nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 70px;
+  margin-left: 40px;
+}
+.nav a {
+  text-decoration: none;
+  color: var(--paragraphs-color);
+}
+
+.nav a:hover,
+.nav li .active {
+  color: var(--branding-color);
+}
+
 .hero {
   background: var(--secondary-color);
   padding: 276px 20px;
@@ -154,6 +183,14 @@ p {
     line-height: 1;
   }
 
+  .nav h1 {
+    font-size: 35px;
+  }
+  .nav li {
+    font-size: 14px;
+    margin-left: 10px;
+    line-height: 55px;
+  }
   .hero {
     background: var(--secondary-color);
     padding: 120px 20px;
