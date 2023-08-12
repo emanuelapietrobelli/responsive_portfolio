@@ -27,7 +27,6 @@ h6 {
 
 body {
   color: var(--text-color);
-  margin-bottom: 100px;
 }
 
 h1 {
@@ -230,6 +229,20 @@ footer .social-links a {
 footer .social-links a:hover {
   color: var(--secondary-color);
   background-color: var(--branding-color);
+}
+
+.p-link {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.p-link:hover {
+  color: var(--branding-color);
+}
+
+.footer-icon {
+  color: var(--branding-color);
+  padding-right: 5px;
 }
 
 @media (max-width: 960px) {
