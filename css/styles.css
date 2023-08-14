@@ -302,15 +302,28 @@ footer .social-links a:hover {
   .about-hero-content {
     margin: 0 15px;
   }
+
+  .content-container {
+    padding: 60px 20px;
+    text-align: center;
+  }
   .hero-work {
     padding: 60px 25px;
+  }
+  .work-master {
+    margin: 0;
   }
 
   .work-master h1 {
     font-size: 40px;
     line-height: normal;
+    margin-bottom: 20px;
   }
   .work-grid {
     padding: 20px;
+  }
+
+  footer {
+    margin: 60px 0 60px;
   }
 }
