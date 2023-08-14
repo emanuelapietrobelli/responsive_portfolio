@@ -49,7 +49,7 @@ p {
 }
 
 .nav {
-  padding: 20px;
+  padding: 0;
 }
 .nav h1 {
   font-size: 45px;
@@ -79,7 +79,7 @@ p {
 
 .hero {
   background: var(--secondary-color);
-  padding: 276px 20px;
+  padding: 150px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -145,7 +145,7 @@ p {
 }
 
 .about-hero {
-  padding: 276px 20px;
+  padding: 100px 20px;
 }
 
 .about-hero h1 {
@@ -158,12 +158,16 @@ p {
 }
 
 .about-hero-content {
-  margin: 60px 60px 60px 0px;
+  margin: 30px;
+}
+.work-master {
+  margin: 30px;
 }
 
 .work-master h1 {
   font-size: 64px;
   line-height: 85px;
+  margin-bottom: 100px;
 }
 
 .work-master h2 {
@@ -182,8 +186,13 @@ p {
   text-align: center;
 }
 
+.content-container {
+  padding: 100px 20px;
+}
+
 .hero-work {
-  padding: 336px 330px 120px;
+  padding: 150px 20px;
+  margin: 34px;
 }
 
 .work-grid {
